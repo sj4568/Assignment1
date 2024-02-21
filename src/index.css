@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inspiration&family=Inter:wght@100;300;800&family=Jaldi&family=Jura&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ @layer components
+{
+    body{
+        overflow-x: hidden;
+    }
+   .nav-brand
+   {
+    font-family: 'Inspiration', cursive;
+   }
+   .links
+   {
+    font-family: 'Inria Sans', sans-serif;
+   }
+   .mim-text
+   {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+   }
+   .sale
+   {
+    font-family: 'Inter', sans-serif;
+   }
+   .jura
+   {
+    font-family: 'Jura', sans-serif;
+   }
+   .navBottom
+   {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+   .shado
+   {
+    background-image: url("./assets/Login/login.jpg");
+    background-size: cover;
+    transition: 2s;
+   }
+ 
+}   
