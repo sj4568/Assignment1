@@ -2,9 +2,19 @@ import React from 'react'
 
 export default function InputElement(props) {
   return (
-    <div className='flex flex-col gap-1 sale py-2'>
-          {props.label && <label htmlFor={props.id} className='text-sm font-bold'>{props.label}</label>}
-          <input type="text" className='w-full px-3 py-2 border focus:outline-none rounded-sm text-xs' {...props} />
+    <div className="">
+      {props?.label && (
+        <label htmlFor={props.id} className="text-sm font-bold text-slate-600">
+          {props.label}
+        </label>
+      )}
+      <input
+        className="w-full border-none bg-slate-100 px-3 py-1 focus:outline-none rounded-sm text-sm"
+        {...props}
+      />
+          {props.massage && <div className="massage text-[10px] text-red-500">
+              this field cannot be empty
+          </div>}
     </div>
-  )
+  );
 }

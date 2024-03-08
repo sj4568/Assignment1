@@ -1,7 +1,7 @@
 {
   "name": "eventcy",
   "private": true,
-  "proxy": "http://localhost:3700/",
+  "proxy": "http://localhost:8080",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -15,6 +15,7 @@
     "apexcharts": "^3.45.2",
     "axios": "^1.5.1",
     "bootstrap": "^5.3.2",
+    "dotenv": "^16.4.5",
     "framer-motion": "^10.16.15",
     "papaparse": "^5.4.1",
     "react": "^18.2.0",
